@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import chi from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-chi@deno/mod.js';
+import chi from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-chi@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-chi@deno/mod.js';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-chi@v0.1.0-deno/mod.js';
 ```
 
 #### chi( k )
@@ -382,7 +382,7 @@ var o = rand.toJSON();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import chi from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-chi@deno/mod.js';
+import chi from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-chi@v0.1.0-deno/mod.js';
 
 var seed;
 var rand;
